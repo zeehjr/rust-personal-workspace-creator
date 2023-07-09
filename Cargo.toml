@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 serde_json = { version = "1.0.100", features = ["preserve_order"] }
+termion = "2.0.1"

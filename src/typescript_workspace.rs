@@ -7,7 +7,7 @@ use std::{
 
 use serde_json::Value;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 #[allow(dead_code)]
 pub enum NodePackageManager {
     NPM,
